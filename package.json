@@ -1,0 +1,28 @@
+{
+  "name": "pixi_game_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development",
+    "make": "ts-node tool/templateMaker.ts"
+  },
+  "author": "asurato",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "pixi.js": "^5.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^9.0.0",
+    "ts-transformer-keys": "^0.4.3",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "pixi-sound": "^3.0.5"
+  }
+}
